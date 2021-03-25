@@ -24,6 +24,36 @@ $(document).ready(function() {
    $("#more").click(function() {
    		$('.hidesoup').slideToggle("slow");
    });
+   $("#storyIteam").click(function() {
+         $('.hidestory').slideToggle("30000");
+   });
+   $("#feature01").click(function() {
+         $('.featureP01').slideToggle("30000");
+   });
+   $("#feature02").click(function() {
+         $('.featureP02').slideToggle("30000");
+   });
+   $("#feature03").click(function() {
+         $('.featureP03').slideToggle("30000");
+   });
+    $("#soup01").click(function() {
+         $('.hidesoupP01').slideToggle("30000");
+   });
+    $("#soup02").click(function() {
+         $('.hidesoupP02').slideToggle("30000");
+   });
+    $("#soup03").click(function() {
+         $('.hidesoupP03').slideToggle("30000");
+   });
+    $("#soup04").click(function() {
+         $('.hidesoupP04').slideToggle("30000");
+   });
+    $("#soup05").click(function() {
+         $('.hidesoupP05').slideToggle("30000");
+   });
+    $("#soup06").click(function() {
+         $('.hidesoupP06').slideToggle("30000");
+   });
    $('#gotop').click(function(){
    		$('html,body').animate({scrollTop:$('body').offset().top}, 800);
    	});
